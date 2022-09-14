@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/familyfeud/static/css/main.95de1b22.css",
+    "main.js": "/familyfeud/static/js/main.a23f28c7.js",
+    "static/media/Screenshot 2022-07-19 044757.jpg": "/familyfeud/static/media/Screenshot 2022-07-19 044757.92debc535198437eb30f.jpg",
+    "index.html": "/familyfeud/index.html",
+    "main.95de1b22.css.map": "/familyfeud/static/css/main.95de1b22.css.map",
+    "main.a23f28c7.js.map": "/familyfeud/static/js/main.a23f28c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95de1b22.css",
+    "static/js/main.a23f28c7.js"
+  ]
+}
