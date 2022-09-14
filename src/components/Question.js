@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { DataContext } from "./App.js";
+import { DataContext } from "../App.js";
 
 export const Question = () => {
     const data = useContext(DataContext);

@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { DataContext } from "./App.js";
+import { DataContext } from "../App.js";
 
 export const Answer = ({ location }) => {
     const data = useContext(DataContext);

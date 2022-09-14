@@ -1,6 +1,6 @@
 import { createContext, useState } from 'react';
-import { Question } from './Question.js';
-import { Display } from './Display.js';
+import { Question } from './components/Question.js';
+import { Display } from './components/Display.js';
 import questions7 from './FamilyFeudQuestions/questions7.json';
 import questions6 from './FamilyFeudQuestions/questions6.json';
 import questions5 from './FamilyFeudQuestions/questions5.json';
@@ -28,7 +28,7 @@ function App() {
     <DataContext.Provider value={currentData}>
       <div className="container-flex">
         <div className="title">
-          <h1>Family Feud Scuffed Version</h1>
+          <h1>Family Feud Version</h1>
         </div>
           <Question data={currentData}/>
         <div className="container-grid">
