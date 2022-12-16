@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -21,12 +24,15 @@ body {
 
 .title {
   margin-bottom: 20px;
-  color: white;
+  color: rgb(206, 206, 6);
+  font-family: 'Diplomata SC';
+  font-size: larger;
 }
 
 .current-question {
   margin: 20px;
   color: white;
+  font-family: 'Fira Sans'
 }
 
 .container-grid {

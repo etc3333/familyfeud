@@ -28,7 +28,7 @@ function App() {
     <DataContext.Provider value={currentData}>
       <div className="container-flex">
         <div className="title">
-          <h1>Family Feud Version</h1>
+          <h1>Family Feud Quick Version</h1>
         </div>
           <Question data={currentData}/>
         <div className="container-grid">
