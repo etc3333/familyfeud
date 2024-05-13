@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/familyfeud/static/css/main.4c556b1c.css",
-    "main.js": "/familyfeud/static/js/main.6b0d6fed.js",
+    "main.css": "/familyfeud/static/css/main.8a785380.css",
+    "main.js": "/familyfeud/static/js/main.4b6d47e5.js",
     "static/media/Screenshot 2022-07-19 044757.jpg": "/familyfeud/static/media/Screenshot 2022-07-19 044757.92debc535198437eb30f.jpg",
     "index.html": "/familyfeud/index.html",
-    "main.4c556b1c.css.map": "/familyfeud/static/css/main.4c556b1c.css.map",
-    "main.6b0d6fed.js.map": "/familyfeud/static/js/main.6b0d6fed.js.map"
+    "main.8a785380.css.map": "/familyfeud/static/css/main.8a785380.css.map",
+    "main.4b6d47e5.js.map": "/familyfeud/static/js/main.4b6d47e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c556b1c.css",
-    "static/js/main.6b0d6fed.js"
+    "static/css/main.8a785380.css",
+    "static/js/main.4b6d47e5.js"
   ]
 }
