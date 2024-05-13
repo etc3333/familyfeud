@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { DataContext } from "../App.js";
 
+import '../css/Number.css';
+
 export const Number = ({ location }) => {
     const data = useContext(DataContext);
     let number;
@@ -30,7 +32,7 @@ export const Number = ({ location }) => {
         number = data.answer8 == null ? null : 8;
     }
     return (
-        <div className="element">
+        <div className="element-number">
             <div>
                 {number}
             </div>

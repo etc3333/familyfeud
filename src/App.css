@@ -29,12 +29,6 @@ body {
   font-size: larger;
 }
 
-.current-question {
-  margin: 20px;
-  color: white;
-  font-family: 'Fira Sans'
-}
-
 .container-grid {
   display: grid;
   grid-template-columns: 300px 300px;
@@ -43,32 +37,6 @@ body {
   background-color: black;
   padding: 8px 8px 8px 8px;
   border-radius: 15px;
-}
-
-.element {
-  background-color: #0693e3;
-  height: 70px;
-  border: double white ;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: larger;
-  font-weight: bold;
-  position: relative;
-  cursor: default;
-}
-
-.total-number {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: 0px;
-  border: solid black;
-  height: 65px;
-  width: 65px;
-  background-color: lightsteelblue;
 }
 
 .Reroll {

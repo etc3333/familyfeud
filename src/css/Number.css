@@ -1,0 +1,13 @@
+.element-number {
+  background-color: #0693e3;
+  height: 70px;
+  border: solid white ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  position: relative;
+  cursor: default;
+}

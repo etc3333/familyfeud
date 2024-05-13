@@ -1,0 +1,50 @@
+#scores-row {
+  position: fixed;
+  bottom: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.score-table {
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  border: solid white;
+  border-radius: 50rem;
+  background-color: #0693E3;
+}
+
+.scoreTeam-name {
+  border-width: 0;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  background-color: #0693E3;
+  color: white;
+  border-radius: 50rem;
+}
+
+.scoreTeam-name:focus {
+  outline-width: 0;
+  background-color: #0693E3;
+  color: white;
+}
+
+.scoreTeam-score {
+  border-width: 0;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  background-color: #0693E3;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 50rem;
+}
+
+.scoreTeam-score:focus {
+  outline-width: 0;
+  background-color: #0693E3;
+}

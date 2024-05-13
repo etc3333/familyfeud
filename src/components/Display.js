@@ -3,6 +3,7 @@ import { Answer } from './Answer.js';
 import { useContext, useEffect, useState } from 'react';
 
 import { DataContext } from "../App.js";
+import '../css/Display.css';
 
 export const Display = ({ location }) => {
     const [setter, setSetter] = useState(false);

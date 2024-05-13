@@ -1,6 +1,7 @@
 import { createContext, useState } from 'react';
 import { Question } from './components/Question.js';
 import { Display } from './components/Display.js';
+import Scores from './components/Scores.js';
 import questions7 from './FamilyFeudQuestions/questions7.json';
 import questions6 from './FamilyFeudQuestions/questions6.json';
 import questions5 from './FamilyFeudQuestions/questions5.json';
@@ -26,11 +27,11 @@ function App() {
 
   return (
     <DataContext.Provider value={currentData}>
-      <div className="container-flex">
+      <div className="container-flex" style={{position: 'relative'}}>
         <div className="title">
           <h1>Family Feud Quick Version</h1>
         </div>
-          <Question data={currentData}/>
+        <Question data={currentData}/>
         <div className="container-grid">
           <Display location="row1-col1" />
           <Display location="row1-col2" />
@@ -44,9 +45,9 @@ function App() {
         <div>
           <button className='Reroll' onClick={() => reRoll()}>Reroll</button>
         </div>
+        <Scores />
       </div>
     </DataContext.Provider>
-
   );
 }
 

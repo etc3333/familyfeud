@@ -1,0 +1,27 @@
+.element-answer {
+  background-color: #0693e3;
+  height: 70px;
+  border: solid white ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  position: relative;
+  cursor: default;
+}
+
+.total-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 65px;
+  background-color: lightsteelblue;
+}
+
+.answer-container {
+  text-align: center;
+  flex-grow: 1;
+}
